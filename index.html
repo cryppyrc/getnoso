@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noso - Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="assets/fontawesome-free-6.2.0-web/css/fontawesome.css" rel="stylesheet">
+  <link href="assets/fontawesome-free-6.2.0-web/css/brands.css" rel="stylesheet">
+  <link href="assets/fontawesome-free-6.2.0-web/css/solid.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <!-- Hero section -->
+  <section class="hero is-info is-medium pb-5 has_globe">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+              <a href="index.html" class="navbar-item">
+              <p class="title is-size-3">
+                <img src="assets/img/noso_coin.avif"> 
+                  <span style = "margin-left: 7.3px;">Noso</span>
+              </p>
+            </a>
+            <span class="navbar-burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active" href="index.html">
+                Home
+              </a>
+              <a class="navbar-item" href="get-started.html">
+                Get Started
+              </a>
+              <a class="navbar-item" href="https://docs.nosocoin.com">
+                Documentation
+              </a>
+                <a class="navbar-item" href="https://explorer.nosocoin.com">
+                Explorer
+              </a>
+              <span class="navbar-item">
+                <a class="button is-info is-inverted is-outlined">
+                  <span class="icon is-online">
+                    <i class="fa-solid fa-circle"></i>
+                  </span>
+                  <span>Mainnet</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="hero-body">
+      <div class="container has-text-left">
+
+        <div class="columns">
+          <div class="column is-two-fifths">
+            <p class="title is-size-2">
+              Build on Trust
+            </p>
+            <p class="subtitle">
+              <b>Noso</b> is a new generation cryptocurrency developed from the
+              ground up by a team with more than a decade of experience
+              in blockchain technologies.
+            </p>
+            <a href="apps.html#desktop_wallet" class="button is-normal is-info is-inverted"><span class="icon">
+                <i class="fa-solid fa-wallet"></i></span><span> Get your Wallet</span></a>
+            <a href="docs.html"class="button is-normal is-primary is-outlined"><span class="icon">
+                <i class="fa-solid fa-play"></i></span><span> What is Noso?</span></a>
+          </div>
+          <div class="column">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-footer attention_section">
+      <nav class="level">
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Block #</p>
+            <p class="title" id="api-best-height"></p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Circulating Coins</p>
+            <p class="title" id="api-circ-coins"></p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Coin Hard Cap</p>
+            <p class="title">21 M</p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Issued GVTs</p>
+            <p class="title">66/100</p>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Section 1 -->
+  <section class="section is-medium">
+    <div class="content has-text-centered">
+      <div class="columns is-centered">
+        <div class="column is-three-fifths">
+          <h2>
+            Explore below why Noso is a simple, powerful, and secure cryptocurrency that you can trust.
+          </h2>
+        </div>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-one-quarter">
+          <div class="box has-background-light">
+            <span class="icon pt-6 pb-6">
+              <i class="fa-regular fa-circle-user fa-3x"></i>
+            </span>
+            <p class="subtitle">
+              for <b>Individuals</b>
+            </p>
+            <a href="noso-for-individuals.html" class="button is-normal is-info is-outlined">Learn more</a>
+          </div>
+        </div>
+        <div class="column is-one-quarter">
+          <div class="box has-background-light">
+            <span class="icon pt-6 pb-6">
+              <i class="fa-regular fa-handshake fa-3x"></i>
+            </span>
+            <p class="subtitle">
+              for <b>Businesses</b>
+            </p>
+            <a href="noso-for-businesses.html" class="button is-normal is-info is-outlined">Learn more</a>
+          </div>
+        </div>
+        <div class="column is-one-quarter">
+          <div class="box has-background-light">
+            <span class="icon pt-6 pb-6">
+              <i class="fa-solid fa-arrow-up-from-bracket fa-3x"></i>
+            </span>
+            <p class="subtitle">
+              Get <b>Started</b>
+            </p>
+            <a href="get-started.html" class="button is-normal is-info is-outlined">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+  <section class="section is-small is-blockchain">
+    <div class="columns is-centered is-8">
+      <div class="column is-two-fifths pr-6">
+        <h1 class="title">Get started with Noso</h1>
+        <p>
+          Noso is a new generation of peer-to-peer digital currency completely
+          build from the ground up that pioneers a novel, fairer distribution
+          of coins through PoPW and PoS emission and a more democratic voting
+          system. <b>Noso is open-source, not owned by anyone
+            (<a href="https://unlicense.org/">unlicensed</a>) and provides a unique
+          democratic voting system through GVTs.</b> Noso also aims to be more resource
+          efficient than many of its predecessors replacing the long held maxim of
+          one-CPU-one-vote with the idea of one-IP4-one-vote.
+        </p>
+
+        <p class="mt-6 is-size-5">
+          <span class="icon"><i class="fa-solid fa-truck-fast"></i></span>
+          <span> Super fast peer-to-peer transactions</span>
+        </p>
+        <p class="mt-4 is-size-5">
+          <span class="icon"><i class="fa-regular fa-compass"></i></span>
+          <span> International payments without limitations</span>
+        </p>
+        <p class="mt-4 is-size-5">
+          <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+          <span>Low transaction fees</span>
+        </p>
+
+      </div>
+      <div class="column is-two-fifths"><img class="is-5by4 pl-6" src="assets/img/blockchain.svg"></div>
+    </div>
+  </section>
+
+  <!-- Section 2 -->
+  <section class="section is-small">
+    <div class="columns is-centered">
+      <div class="column is-one-third">
+        <a href="apps.html#desktop_wallet" class="button is-medium is-fullwidth is-info is-outlined">Get your Noso Wallet</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <div class="content has-text-left">
+      <div class="columns">
+        <div class="column is-two-fifths pl-6 pr-6">
+          <p class="subtitle">License statement</p>
+          <p>
+            Code released by the <strong><a href="https://getnoso.org">Noso</a></strong> organisation is
+            <a href="https://unlicense.org/">unlicensed</a>. The website content
+            is licensed with <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+          <p>
+            For media and cooporation inquiries, contact <a href="mailto:getnoso@proton.me">getnoso@proton.me</a>
+          </p>
+        </div>
+        <div class="column">
+          <p class="subtitle">Organisation</p>
+          <ul>
+            <li>
+              <a href="noso-for-individuals.html">Individuals</a>
+            </li>
+            <li>
+              <a href="privacy.html">Privacy</a>
+            </li>
+            <li>
+              <a href="support.html">Support us</a>
+            </li>
+            <li>
+              <a href="developer.html">Developers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column">
+          <p class="subtitle">Download</p>
+          <ul>
+            <li>
+              <a href="apps.html#desktop_wallet">Desktop Wallet</a>
+            </li>
+            <li>
+              <a href="apps.html#mobile_wallet">Mobile Wallet</a>
+            </li>
+            <li>
+              <a href="apps.html#cli_miner">CLI Miner</a>
+            </li>
+            <li>
+              <a href="apps.html#mobile_miner">Mobile Miner</a>
+            </li>
+            <li>
+              <a href="apps.html#node">Node</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column">
+          <p class="subtitle">Social</p>
+          <ul>
+            <li>
+              <a href="https://github.com/Noso-Project">Github</a>
+            </li>
+            <li>
+              <a href="https://bitcointalk.org/index.php?topic=5305226.0">Bitcoin Talk</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column">
+          <p class="subtitle">Help</p>
+          <ul>
+            <li>
+              <a href="https://discord.gg/MH3HVNpY">Discord</a>
+            </li>
+            <li>
+              <a href="get-started.html">Get Started</a>
+            </li>
+            <li>
+              <a href="docs.html">Documentation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script>
+        // function to truncate a number and append the appropriate suffix
+		function formatNumber(num) {
+			if (num >= 1000000) {
+				return (num / 1000000).toFixed(1) + " M";
+			} else if (num >= 1000) {
+				return (num / 1000).toFixed(1) + " k";
+			} else {
+				return num;
+			}
+		}
+
+		// make a GET request to the API endpoint
+		$.get("https://nosostats.com:49443/api/supply", function(data) {
+			// extract the supplyInNOSO value from the response data and format it
+			var supplyInNOSO = formatNumber(data.data.supplyInNOSO);
+			// display the supplyInNOSO value on the webpage
+			$("#api-circ-coins").text(supplyInNOSO);
+		});
+		
+        // make a GET request to the API endpoint
+		$.get("https://nosostats.com:49443/api/dBheightS", function(data) {
+			// extract the supplyInNOSO value from the response data
+			var bestHeight = data.data.bestHeight;
+			// display the supplyInNOSO value on the webpage
+			$("#api-best-height").text(bestHeight);
+		});
+	</script>
+    
+    </body>
+
+</html>
